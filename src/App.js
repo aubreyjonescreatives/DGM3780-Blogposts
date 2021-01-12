@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
 import IntroBlogPost from './IntroBlogPost'
 
@@ -7,7 +7,7 @@ import IntroBlogPost from './IntroBlogPost'
 function App() {
   return (
     <div className="App">
-    <IntroBlogPost></IntroBlogPost>
+    <IntroBlogPost/>
     </div>
   );
 }

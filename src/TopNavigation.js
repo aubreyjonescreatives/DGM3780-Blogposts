@@ -4,7 +4,7 @@ import React from 'react'
 
 
 
-function IntroBlogPost() {
+function TopNavigation() {
     return (
       <div className="App">
       Hello World!
@@ -12,5 +12,5 @@ function IntroBlogPost() {
     );
   }
   
-  export default IntroBlogPost;
+  export default TopNavigation;
   

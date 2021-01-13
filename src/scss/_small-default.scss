@@ -54,19 +54,6 @@ header {
 
 
 nav {
-background-color: $primaryColor; 
-height: 75px; 
-
-li {
-list-style-type: none; 
-padding: 25px 20px; 
-
-a {
-color: $white; 
-
-}
-
-}
 
 
 
@@ -94,43 +81,13 @@ main {
      
  
 
-
+}
 
 /* ------------------------TOPNAV----------------------------- */
 
 
     
 
-
-
-
-.CalenderHolidays {
-    margin: 0px auto; 
-    margin: 20px;  
-    width: 250px; 
-    height: 100px; 
-    float: left;
-    border: 1px solid $secondaryColor; 
-    border-radius: 2px;  
-    box-shadow: none; 
-    
-}
-
-.calendarNames {
-
-
-
-.holidayTitles {
-text-align: center;   
-margin: 20px; 
-height: 100px;
-direction: row; 
-
-
-}
-}
-
-}
 
 
 

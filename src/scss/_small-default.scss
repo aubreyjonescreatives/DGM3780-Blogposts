@@ -10,7 +10,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%}
 
  /* -----------------------BODY ------------------------------- */ 
 
-header, nav, main, footer {max-width: 75rem; font-family: "lato";}
+header, nav, main, footer {max-width: 1500px; font-family: "lato";}
 
 
 
@@ -23,18 +23,6 @@ body{
 
 /* ------------------------HEADER----------------------------- */
 
-
-
-div#wrappertopHeader {
-  
-}
-
-header {
-
-
-
-
-}
 
 
 
@@ -51,20 +39,29 @@ header {
 
 /* ------------------------ENDTOPNAV----------------------------- */
 
+
+
 Nav {
+width: 100%; 
+background-color: $secondaryColor; 
+height: 50px; 
 
-Nav-item {
-text-decoration: none; 
-font-size: 24px; 
-padding: 20px; 
+li  { 
+float: left; 
+list-style-type: none; 
+width: 25%; 
+padding: 15px; 
+color: $white; 
 
-
+a:hover {
+text-decoration: underline; 
     
     
     
     
 }
 
+}
 
 }
 

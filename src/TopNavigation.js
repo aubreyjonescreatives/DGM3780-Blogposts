@@ -7,19 +7,15 @@ import BlogpostStyles from './css/BlogpostStyles.css'
 
 function TopNavigation() {
     return (
-      <div>
-      <Nav className="justify-content-center">
-      <Nav.Item>
-      <Nav.Link href="#">ABOUT ME</Nav.Link>  
-      </Nav.Item>
      
-
-
-
-
-
-      </Nav>
-      </div>
+      <nav className="Nav">
+      <li><a>ABOUT ME</a></li>  
+      <li><a>RESEARCH AND LEARNING</a></li>  
+      <li><a>GIT</a></li>  
+      <li><a>UNIT TESTING</a></li>  
+      </nav>  
+     
+    
     );
   }
   

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Nav } from 'react-bootstrap'
 import BlogpostStyles from './css/BlogpostStyles.css'
 
 
@@ -7,13 +8,17 @@ import BlogpostStyles from './css/BlogpostStyles.css'
 function TopNavigation() {
     return (
       <div>
-      <nav className="topNav">
-      <li><a href="#">ABOUT ME</a></li>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-      </nav>
+      <Nav className="topNav">
+      <Nav.Item>
+      <Nav.Link href="#"></Nav.Link>  
+      </Nav.Item>
+     
+
+
+
+
+
+      </Nav>
       </div>
     );
   }

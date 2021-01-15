@@ -8,9 +8,9 @@ import BlogpostStyles from './css/BlogpostStyles.css'
 function TopNavigation() {
     return (
       <div>
-      <Nav className="topNav">
+      <Nav className="justify-content-center">
       <Nav.Item>
-      <Nav.Link href="#"></Nav.Link>  
+      <Nav.Link href="#">ABOUT ME</Nav.Link>  
       </Nav.Item>
      
 
